@@ -1,0 +1,105 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+    
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    /* um do lado do outro */
+    display: flex;
+    justify-content: start;
+}
+
+.container2 {
+    display: flex;
+    /* final */
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container4 {
+    /* Distribuir os itens de forma igual ao longo da linha, 
+    o primeiro item junto a borda inicial da linha, o último 
+    junto a borda final da linha; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container5 {
+    /* Distribuir os itens na linha com o mesmo espaçamento 
+    ao redor dele */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container6 {
+    /* Distribuir os itens de forma que o espaçamento entre 
+    quaisquer dos itens da linha seja igual. */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+
+.container-exercicioB {
+    /* inverter a ordem do blocos */
+    display: flex;
+    /* coloca um embaixo do outro e inverte a ordem */
+    flex-direction: column-reverse;
+
+}
+
+/* ---------------------------------------------------------------------- */
+
+.container-desafio {
+    /* elementos fiquem dispostos alinhados horizontalmente da 
+    direita para a esquerda, tendo seu último elemento “grudado” 
+    no lado esquerdo da tela. */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+}
