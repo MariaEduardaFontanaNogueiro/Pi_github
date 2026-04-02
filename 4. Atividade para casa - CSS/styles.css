@@ -1,0 +1,57 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    /* Aplique um fundo verde à div pai (ou seja, a div com a 
+    classe "container") que engloba todos os elementos. */
+    background-color: green;
+    color: rgb(67, 43, 226);
+}
+
+.cabecalho {
+    /* Aplique no fundo alguma cor em hexadecimal para todos os 
+    itens dentro da div com a classe "cabecalho" */
+    background-color: #9cfd9c;
+    /* alinhe os textos ao centro */
+    text-align: center;
+}
+
+.titulo {
+    color: rgb(255, 0, 38);
+    /* negrito */
+    font-weight: bold;
+    /* tamanho */
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: rgb(255, 37, 81);
+}
+
+.conteudo {
+    background-color: rgb(165, 227, 72);
+    color: blueviolet;
+}
+
+/* Desafio */
+.conteudo > p {
+    color:  #E4005A;
+    font-size: 42px;
+}
+
+/* Desafio plus */
+.conteudo > p:nth-of-type(3){
+    color: purple;
+    font-weight: bold;
+}
+
+/* Desafio plus 2 */
+/* @medida : criação de uma condição */
+/* max-width: 480px : quando a tela for menor ou igual a 480px */
+/* .container : onde quero que aplique */
+@medida (max-width: 100px) {
+    .container{
+        background-color: #ADD8E6;
+    }
+}
